@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7eac58b0-3287-4552-a02b-01a32aa204c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mimimizing-Loss_2_1_6.py</StartupFile>
+    <StartupFile>5_FirstNeuralNetwork-revisited_2_2_5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="2_Assignment-2-1-13-question.py" />
-    <Compile Include="1_FirstNeuralNetwork.py" />
-    <Compile Include="3_ExploringLoss_2-1-4.py" />
-    <Compile Include="Mimimizing-Loss_2_1_6.py" />
+    <Compile Include="4_Assignment-2-1-13-question.py" />
+    <Compile Include="3_FirstNeuralNetwork_2_1_9.py" />
+    <Compile Include="1_ExploringLoss_2-1-4.py" />
+    <Compile Include="2_Mimimizing-Loss_2_1_6.py" />
+    <Compile Include="5_FirstNeuralNetwork-revisited_2_2_5.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

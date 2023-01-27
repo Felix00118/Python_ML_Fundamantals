@@ -15,6 +15,17 @@ class myCallback(tf.keras.callbacks.Callback):
     predictions.append(model.predict(xs))
 callbacks = myCallback()
 
+#Test callback function
+class testCallback(tf.keras.callbacks.Callback):
+  def on_epoch_begin(self, epoch, logs={}):
+      print("epoch start"+str(epoch))
+
+  def on_epoch_end(self, epoch, logs={}):
+      print("epoch end"+str(epoch))
+callbacksTest = testCallback()
+
+#Test callback function
+
 # We then define the xs (inputs) and ys (outputs)
 xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
 ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
@@ -34,7 +45,9 @@ model.compile(optimizer='sgd', loss=LOSS)
 # DO NOT CHANGE THIS CELL
 
 # We then fit the model
-model.fit(xs, ys, epochs=300, callbacks=[callbacks], verbose=2)
+#model.fit(xs, ys, epochs=300, callbacks=[callbacks], verbose=2)
+model.fit(xs, ys, epochs=300, callbacks=[callbacks, callbacksTest], verbose=2)
+
 
 EPOCH_NUMBERS=[1,25,50,150,300] # Update me to see other Epochs
 plt.plot(xs,ys,label = "Ys")

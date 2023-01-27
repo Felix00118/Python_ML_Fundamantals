@@ -5,6 +5,8 @@ from tensorflow import keras
 # define a neural network with one neuron
 # for more information on TF functions see: https://www.tensorflow.org/api_docs
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+#model = tf.keras.Sequential([keras.layers.Dense(units=2, input_shape=[1])])
+
 
 # use stochastic gradient descent for optimization and
 # the mean squared error loss function
