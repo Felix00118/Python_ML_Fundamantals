@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7eac58b0-3287-4552-a02b-01a32aa204c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>7_Realities-of-coding2-2-11.py</StartupFile>
+    <StartupFile>8_Exercise_2-2-12.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,9 @@
     <Compile Include="2_Mimimizing-Loss_2_1_6.py" />
     <Compile Include="5_FirstNeuralNetwork-revisited_2_2_5.py" />
     <Compile Include="6_Exploring_Categorical_2_2_7.py" />
+    <Compile Include="8_Exercise_2-2-12.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
