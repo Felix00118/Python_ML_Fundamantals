@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7eac58b0-3287-4552-a02b-01a32aa204c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>8_Exercise_2-2-12.py</StartupFile>
+    <StartupFile>14_Question_2_4_11.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="10_Fashion-MNIST-Convolutions_2_3_5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_Question_2-3-9.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_HorsesOrHumans_2_4_3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="7_Realities-of-coding2-2-11.py">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +40,15 @@
     <Compile Include="5_FirstNeuralNetwork-revisited_2_2_5.py" />
     <Compile Include="6_Exploring_Categorical_2_2_7.py" />
     <Compile Include="8_Exercise_2-2-12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9_ExploringConvolutions_2-3-3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11_Fashion-MNIST-Convolutions_2-3-7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_Question_2_4_11.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
